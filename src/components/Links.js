@@ -1,13 +1,17 @@
 import "../styles/App.css";
 import React from 'react';
+import 'boxicons';
 
 
 const Links = () => {
     return (
         <div className="links">
-            <a href="https://facebook.com">Facebook</a>
-            <a href="https://twitter.com">Twitter</a>
-            <a href="https://www.linkedin.com">LinkedIn</a>
+            <a href="https://github.com/Elchamos64">
+            <box-icon color="#75E6DA" type='logo' name='github'></box-icon>
+            </a>
+            <a href="https://www.linkedin.com">
+            <box-icon olor="#75E6DA" type='logo' name='linkedin'></box-icon>
+            </a>
         </div>
     );
 };

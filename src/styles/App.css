@@ -38,7 +38,6 @@
   text-decoration: none;
 }
 
-.links a{
-  color: #ffff;
-  text-decoration: none;
+.links {
+  font-size: 500px;
 }
