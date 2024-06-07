@@ -57,14 +57,37 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 10%;
+  padding: 5px 10%;
   color: #ffff;
 }
 
 .links {
   margin-top: 3%;
+  padding-bottom: 20px;
 }
 
 .links a{
   margin: 20px;
+}
+
+
+/* src/components/BackToTopButton.css */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.back-to-top button {
+  color: #75E6DA;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.back-to-top button:hover {
+  background-color: #002137;
+  color: #ffffff;
+  transition: 0.3s;
 }
