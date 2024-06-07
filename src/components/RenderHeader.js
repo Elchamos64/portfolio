@@ -3,8 +3,8 @@ import React from "react";
 
 const Header = () => {
     return (
-        <div>
-            <h1 className="name">Oscar </h1>
+        <div className="header">
+            <h1 className="name">Oscar. </h1>
             <NavBar />
         </div>
     );
@@ -14,7 +14,7 @@ const NavBar = () => {
       <nav className="navbar">
         <a href="/">Home</a>
         <a href="/about">About</a>
-        <a href="/services">About</a>
+        <a href="/services">Projects</a>
       </nav>
     );
   };

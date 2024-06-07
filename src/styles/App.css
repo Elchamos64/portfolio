@@ -30,14 +30,41 @@
   font-size: 16px;
   margin: 4px 2px;
   border-radius: 15px;
+  font-weight: bold;
+}
+
+.contactMe:hover {
+  color: #ffff;
+  transition: 0.5s;
+  background-color: #002137;
 }
 
 
-.name, .navbar a{
+.navbar a{
   color: #ffff;
   text-decoration: none;
+  padding-left: 40px;
+  font-size: large;
+}
+
+.navbar a:hover {
+  transform: scale(1.1);
+  color: #75E6DA;
+  transition: 0.5s;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  color: #ffff;
 }
 
 .links {
-  font-size: 500px;
+  margin-top: 3%;
+}
+
+.links a{
+  margin: 20px;
 }

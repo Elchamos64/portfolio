@@ -6,7 +6,8 @@ const AboutMe = () => {
         <div>
             <h1 className="introduction">Hi, I am Oscar Ramos.</h1>
             <h2 className='major'>Software Engineer</h2>
-            <h3 className='description'>alksdjaskljd lkajsd laksjd laksjdlak sjdals lakjsdlka jsdlkajs alskdj alskdj </h3>
+            <p className='description'>In this website you can find some of my projects that I have created.
+                <br></br> As well as some video tutorials. If you would like to contact me, <br></br>please click the button below. You can also visit my Github and linkedin.</p>
             <button className='contactMe'>Contact Me</button>
         </div>
     );
