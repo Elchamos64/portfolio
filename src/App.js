@@ -4,6 +4,7 @@ import RenderHeader from './components/RenderHeader';
 import AboutMe from './components/AboutMe';
 import Links from './components/Links';
 import BackToTopButton from './components/BackToTopBotton';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <RenderHeader />
       <ImageComponent />
       <AboutMe />
+      <Projects />
       <Links />
       <BackToTopButton />
     </div>

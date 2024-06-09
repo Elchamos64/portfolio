@@ -1,6 +1,7 @@
 import "../styles/App.css";
 import React from "react";
 
+
 const Header = () => {
     return (
         <div className="header">
@@ -14,7 +15,7 @@ const NavBar = () => {
       <nav className="navbar">
         <a href="/">Home</a>
         <a href="/about">About</a>
-        <a href="/services">Projects</a>
+        <a href=".project-title">Projects</a>
       </nav>
     );
   };

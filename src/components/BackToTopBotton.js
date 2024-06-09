@@ -1,5 +1,6 @@
 // src/components/BackToTopButton.js
 import React, { useState, useEffect } from 'react';
+import 'boxicons';
 
 const BackToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -32,7 +33,7 @@ const BackToTopButton = () => {
     <div className="back-to-top">
       {isVisible && (
         <button onClick={scrollToTop}>
-          ↑
+          <box-icon name='chevrons-up' color='#75E6DA' size="lg"></box-icon>
         </button>
       )}
     </div>
