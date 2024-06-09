@@ -9,7 +9,7 @@ This website is also hosted online for you to see, you can visit it [here](https
 
 Check out this video demo
 
-[Portfolio with React ](http://youtube.link.goes.here)
+[Portfolio with React ](https://www.youtube.com/watch?v=AwQlWZFY8MM)
 
 # Web Pages
 
