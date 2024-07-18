@@ -1,0 +1,11 @@
+{
+	"appId": "com.portfolio",
+	"appName": "portfolio",
+	"webDir": "build",
+	"packageClassList": [
+		"AppPlugin",
+		"HapticsPlugin",
+		"KeyboardPlugin",
+		"StatusBarPlugin"
+	]
+}
