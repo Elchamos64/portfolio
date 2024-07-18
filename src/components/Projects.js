@@ -4,7 +4,7 @@ import Project1 from "../Images/Project-1.jpg";
 
 const Projects = () => {
     return (
-        <div className='project-title'>
+        <div className='project-title' id='projects'>
             <p>Check out my recent</p>
             <h1>Projects
             <ProjectCard />
