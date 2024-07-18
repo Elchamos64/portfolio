@@ -19,7 +19,7 @@ const ProjectCard = () => {
             <div className='project-1'>
                 <img src={Project1} alt="project" />
                 <p>My first project</p>
-                <a href='https://github.com/Elchamos64'>Github</a>
+                <a href='https://main--sleepoutside-oscar-ricky.netlify.app/'>Github</a>
                 <a href='https://github.com/Elchamos64'>Video Demo</a>
             </div>
             <div className='project-2'>
