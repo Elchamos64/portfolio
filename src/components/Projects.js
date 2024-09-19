@@ -23,13 +23,11 @@ const ProjectCard = () => {
                 <p>Sleep Outside</p>
                 <a href='https://main--sleepoutside-oscar-ricky.netlify.app/'>App</a>
                 <a href='https://github.com/vangricky/sleepoutside'>Github</a>
-                <a href='https://github.com/Elchamos64'>Video Demo</a>
             </div>
             <div className='project-2'>
                 <img src={Project2} alt="project" />
                 <p>Card Game (Python)</p>
                 <a href='https://github.com/Elchamos64'>Github</a>
-                <a href='https://github.com/Elchamos64'>Video Demo</a>
             </div>
             <div className='project-3'>
                 <img src={Project3} alt="project" />
