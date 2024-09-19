@@ -1,5 +1,7 @@
 import React from 'react';
-import Project1 from "../Images/Project-1.jpg";
+import Project1 from "../Images/project-1.png";
+import Project2 from "../Images/project-2.png";
+import Project3 from "../Images/project-3.png";
 
 
 const Projects = () => {
@@ -18,21 +20,23 @@ const ProjectCard = () => {
         <div className='project-cards'>
             <div className='project-1'>
                 <img src={Project1} alt="project" />
-                <p>My first project</p>
-                <a href='https://main--sleepoutside-oscar-ricky.netlify.app/'>Github</a>
+                <p>Sleep Outside</p>
+                <a href='https://main--sleepoutside-oscar-ricky.netlify.app/'>App</a>
+                <a href='https://github.com/vangricky/sleepoutside'>Github</a>
                 <a href='https://github.com/Elchamos64'>Video Demo</a>
             </div>
             <div className='project-2'>
-                <img src={Project1} alt="project" />
-                <p>My Second project</p>
+                <img src={Project2} alt="project" />
+                <p>Card Game (Python)</p>
                 <a href='https://github.com/Elchamos64'>Github</a>
                 <a href='https://github.com/Elchamos64'>Video Demo</a>
             </div>
             <div className='project-3'>
-                <img src={Project1} alt="project" />
-                <p>My Third project</p>
-                <a href='https://github.com/Elchamos64'>Github</a>
-                <a href='https://github.com/Elchamos64'>Video Demo</a>
+                <img src={Project3} alt="project" />
+                <p>Movie Scout</p>
+                <a href='https://main--sleepoutside-oscar-ricky.netlify.app/'>App</a>
+                <a href='https://github.com/Elchamos64/MovieScout'>Github</a>
+                <a href='https://www.youtube.com/watch?v=dtKw-8R2yQE'>Video Demo</a>
             </div>
             
         </div>
