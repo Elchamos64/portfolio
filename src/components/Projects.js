@@ -27,12 +27,12 @@ const ProjectCard = () => {
             <div className='project-2'>
                 <img src={Project2} alt="project" />
                 <p>Card Game (Python)</p>
-                <a href='https://github.com/Elchamos64'>Github</a>
+                <a href='https://github.com/Elchamos64/Team3.14_card_game'>Github</a>
             </div>
             <div className='project-3'>
                 <img src={Project3} alt="project" />
                 <p>Movie Scout</p>
-                <a href='https://main--sleepoutside-oscar-ricky.netlify.app/'>App</a>
+                <a href='https://elchamos64.github.io/MovieScout/'>App</a>
                 <a href='https://github.com/Elchamos64/MovieScout'>Github</a>
                 <a href='https://www.youtube.com/watch?v=dtKw-8R2yQE'>Video Demo</a>
             </div>
